@@ -11,22 +11,6 @@ import { Footer } from "@/components/portfolio/Footer";
 
 export const Route = createFileRoute("/")({
   component: Index,
-  head: () => ({
-    meta: [
-      { title: "Muhammad Usman Mumtaz — AI Engineer" },
-      {
-        name: "description",
-        content:
-          "Portfolio of Muhammad Usman Mumtaz — AI Engineer learning and building intelligent systems, AI agents, and automation.",
-      },
-      { property: "og:title", content: "Muhammad Usman Mumtaz — AI Engineer" },
-      {
-        property: "og:description",
-        content:
-          "Building and exploring AI agents, automation systems, and intelligent applications.",
-      },
-    ],
-  }),
 });
 
 function Index() {
